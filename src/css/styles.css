@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  box-sizing: border-box;
+}
+.product-box {
+  display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+}
+.icons {
+  font-size: 88px;
+}
+.add-to-bag {
+  border-radius: 10px;
+}
+#price{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.card:nth-child(even){
+  background-color: lightgrey;
+}
